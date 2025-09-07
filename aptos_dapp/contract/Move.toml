@@ -1,0 +1,17 @@
+[package]
+name = "PayrollStreamApp"
+version = "1.0.0"
+authors = []
+
+[addresses]
+payroll_stream_addr = "_"
+message_board_addr = "_"
+
+[dev-addresses]
+payroll_stream_addr = "0x100"
+message_board_addr = "0x200"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-framework" }
+
+[dev-dependencies]
